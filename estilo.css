@@ -1,0 +1,63 @@
+html{
+    background-color: black;
+    background-image: url(images/pattern.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ----------------------BODY---------------------- */
+body{
+    color: white;
+}
+.header h1{
+    text-align: center;
+    font-size: 2.8vw;
+}
+.form {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2vw;
+}
+.guessField, .guessSubmit{
+    border-radius: 5vw;
+    font-size: 2vw;
+}
+.guessSubmit{
+    padding: 0vw 1.6vw 0vw 1.6vw;
+    background-color: rgba(93, 117, 93, 0.486);
+    color: white;
+    text-shadow: 3px 2px 1px rgba(128, 128, 128, 0.719);
+}
+.guessSubmit:hover{
+    background-color: rgba(0, 128, 0, 0.486);
+}
+.resultParas {
+    margin-top: 4vw;
+    text-align: center;
+    font-size: 1.6vw;
+}
+.lastResult{
+    display: block;
+    padding: 1vw;
+    margin-right: 32vw;
+    margin-left: 32vw;
+    text-align: center;
+    border-radius: 4vw;
+}
+/* Boton de renicio */
+button{
+    display: block;
+    border-radius: 5vw;
+    block-size: 5vw;
+    margin: auto;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    padding-right: 1.6vw;
+    padding-left: 1.6vw;
+    color: white;
+    background-color:  rgba(93, 117, 93, 0.486);
+}
+button:hover{
+    background-color: rgba(245, 38, 141, 0.486);
+}
+input:placeholder-shown{
+    text-align: center;
+}
